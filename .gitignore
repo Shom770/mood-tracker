@@ -122,7 +122,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-mood-tracker/.env
+.env
+backend/.env
 .venv
 env/
 ../venv/
