@@ -5,7 +5,7 @@ import { Icon } from '@rneui/themed';
 import MoodSelector from './components/MoodSelector.js'
 
 const sendDataToApi = async (score, notes) => {
-  return fetch("http://127.0.0.1:8000/send_data/", {
+  return fetch("https://mood-tracker-kn5h.onrender.com/send_data/", {
     "method": "POST",
     "body": JSON.stringify({
       "score": score,
